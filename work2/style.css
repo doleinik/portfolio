@@ -271,15 +271,15 @@ footer p{
 @media screen and (max-width: 430px){
     .block1{
         background: url("images/hero-bg@450.png") no-repeat ;
-        height: 100%;
+        height: 100vh;
     }
     .icon-logo{
-        margin-top: 20px;
+        margin-top: 60px;
         width: 40px;
         height: 40px;
     }
     h1{
-        margin: 12px auto;
+        margin: 40px auto;
         width: 80%;
         font-size: 25px;
     }
@@ -292,7 +292,7 @@ footer p{
     .icon-scroll{
         width: 20px;
         height: 20px;
-        margin: 0;
+        margin-top: 100px;
     }
     .title{
         padding: 0 20px;
