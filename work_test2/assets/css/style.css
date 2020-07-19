@@ -3,11 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
-
 .main {
   width: 100%;
   padding: 0 50px;
@@ -16,14 +14,12 @@ a {
   background-repeat: no-repeat;
   height: auto;
 }
-
 .container {
   position: relative;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
-
 .about {
   position: relative;
   width: 100%;
@@ -32,7 +28,6 @@ a {
   outline: 1px solid #b58646;
   outline-offset: -20px;
 }
-
 .about__wrap {
   position: relative;
   width: 100%;
@@ -44,59 +39,48 @@ a {
   box-shadow: 2px 12px 50px 1px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
-
-.about__left-img {
+.about__img {
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
+  width: 250px;
+  height: 170px;
+}
+.about__img--left {
   left: -27%;
-  transform: translateY(-50%);
-  width: 250px;
-  height: 170px;
 }
-
-.about__right-img {
-  position: absolute;
-  top: 50%;
+.about__img--right {
   right: -27%;
-  transform: translateY(-50%);
-  width: 250px;
-  height: 170px;
 }
-
 .about__title {
   font-size: 42px;
   color: #b58646;
   padding-bottom: 10px;
 }
-
 .about__subtitle {
   font-size: 16px;
   color: #52595e;
   padding-bottom: 20px;
 }
-
 .about__text {
   font-size: 16px;
   padding-bottom: 33px;
 }
-
 .button {
   display: inline-block;
   background-color: #b58646;
   max-width: 104px;
   width: 100%;
-  padding: 6px 0;
+  padding: 6px;
   color: #fff;
   border-radius: 3px;
 }
-
 .angles-top {
   width: 100%;
   position: absolute;
   top: 50px;
   left: 0;
 }
-
 .angles-top:after {
   content: "";
   position: absolute;
@@ -105,7 +89,6 @@ a {
   height: 230px;
   background-image: url("../images/angle.png");
 }
-
 .angles-top:before {
   content: "";
   position: absolute;
@@ -115,14 +98,12 @@ a {
   background-image: url("../images/angle.png");
   transform: rotate(90deg);
 }
-
 .angles-bottom {
   width: 100%;
   position: absolute;
   bottom: 50px;
   left: 0;
 }
-
 .angles-bottom:after {
   content: "";
   position: absolute;
@@ -133,7 +114,6 @@ a {
   background-image: url("../images/angle.png");
   transform: rotate(-90deg);
 }
-
 .angles-bottom:before {
   content: "";
   bottom: 0;
@@ -144,7 +124,6 @@ a {
   background-image: url("../images/angle.png");
   transform: rotate(-180deg);
 }
-
 .products {
   position: relative;
   width: 100%;
@@ -153,7 +132,6 @@ a {
   outline: 1px solid #b58646;
   outline-offset: -20px;
 }
-
 .products__wrap {
   width: 100%;
   max-width: 930px;
@@ -162,7 +140,6 @@ a {
   flex-wrap: wrap;
   z-index: 1;
 }
-
 .products__element {
   width: calc(50% - 16px);
   margin: 8px;
@@ -175,7 +152,6 @@ a {
   background-size: cover;
   z-index: 1;
 }
-
 .element__info {
   display: flex;
   flex-direction: column;
@@ -189,38 +165,30 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .element__title {
   margin-bottom: 9px;
   color: #fff;
 }
-
 @media screen and (max-width: 767px) {
   .container {
     padding: 0;
   }
-
   .main {
     padding: 0;
   }
-
   .angles-bottom {
     display: none;
   }
-
   .angles-top {
     display: none;
   }
-
   .products {
     padding: 15px;
     outline-offset: -10px;
   }
-
   .products__wrap {
     flex-direction: column;
   }
-
   .products__element {
     position: relative;
     width: 100%;
@@ -237,32 +205,25 @@ a {
      background: rgba(0,0,0,.3);
     z-index: -1;
    }
-
   .element__info {
     padding: 21px 15px 21px;
     background-image: none !important;
     border: 0;
   }
-
   .about {
     padding: 10px;
     outline-offset: -10px;
   }
-
   .about__wrap {
     box-shadow: none;
     padding: 55px 27px 47px;
     width: 100%;
     max-width: none;
   }
-
   .about__left-img {
     display: none;
   }
-
   .about__right-img {
     display: none;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
