@@ -74,6 +74,11 @@ a {
   padding: 6px;
   color: #fff;
   border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.button:hover{
+  color: #000;
+  background-color: #ffa62d;
 }
 .angles-top {
   width: 100%;
@@ -220,10 +225,7 @@ a {
     width: 100%;
     max-width: none;
   }
-  .about__left-img {
-    display: none;
-  }
-  .about__right-img {
+  .about__img {
     display: none;
   }
 }
