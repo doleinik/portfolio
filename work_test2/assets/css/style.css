@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none;
 }
+
 .main {
   width: 100%;
   padding: 0 50px;
@@ -156,7 +158,7 @@ a {
 .products__element {
   width: calc(50% - 16px);
   margin: 8px;
-  padding: 34px 89px;
+  padding: 34px 20px;
   text-align: center;
   height: auto;
   outline: 1px solid #b58646;
@@ -173,6 +175,7 @@ a {
   height: 100%;
   padding: 35px 15px 27px;
   width: 100%;
+  max-width: 300px;
   border: 10px solid rgba(255, 255, 255, 0.5);
   margin: auto;
   background-repeat: no-repeat;
@@ -211,6 +214,10 @@ a {
     margin: 5px 0;
     padding: 35px 35px;
   }
+  .products__element {
+    background: rgba(0,0,0,.3);
+  }
+
   .products__element:before {
      content: '';
      position: absolute;
@@ -219,7 +226,7 @@ a {
      right: 0;
      bottom: 0;
      background: rgba(0,0,0,.3);
-    z-index: -1;
+     z-index: -1;
    }
   .element__info {
     padding: 21px 15px 21px;
