@@ -137,6 +137,14 @@ a {
   outline: 1px solid #b58646;
   outline-offset: -20px;
 }
+.products__title{
+  text-align: center;
+  font-size: 30px;
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #b58646;
+}
 .products__wrap {
   width: 100%;
   max-width: 930px;
@@ -190,6 +198,9 @@ a {
   .products {
     padding: 15px;
     outline-offset: -10px;
+  }
+  .products__title{
+    display: block;
   }
   .products__wrap {
     flex-direction: column;
